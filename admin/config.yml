@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: arsasf/my-website 
+  name: git-gateway
   branch: main
 
 media_folder: "images/uploads"
