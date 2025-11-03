@@ -9,7 +9,7 @@ collections:
   - name: "content"
     label: "Website Content"
     files:
-      - file: "content.json"
+      - file: "data/content.json"
         label: "Site Content"
         name: "content"
         format: "json"
