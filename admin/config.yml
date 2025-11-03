@@ -1,0 +1,121 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "content"
+    label: "Website Content"
+    files:
+      - file: "content.json"
+        label: "Site Content"
+        name: "content"
+        format: "json"
+        fields:
+          - label: "Slogan"
+            name: "slogan"
+            widget: "object"
+            fields:
+              - { label: "Logo Text", name: "logoText", widget: "string" }
+              - label: "Menu"
+                name: "menu"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+              - { label: "Button Menu", name: "buttonMenu", widget: "string" }
+              - label: "Title"
+                name: "title"
+                widget: "list"
+                field: { label: "Text", name: "text", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Button Text", name: "buttonText", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+
+          - label: "Client"
+            name: "client"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Logos"
+                name: "logos"
+                widget: "list"
+                field: { label: "Logo", name: "logo", widget: "image" }
+
+          - label: "What We Do"
+            name: "whatWeDo"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - { label: "Link", name: "link", widget: "string" }
+
+          - label: "How We Work"
+            name: "howWeWork"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Content", name: "content", widget: "text" }
+
+          - label: "Pricing"
+            name: "price"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Plans"
+                name: "plans"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Price", name: "price", widget: "string" }
+                  - label: "Features"
+                    name: "features"
+                    widget: "list"
+                    field: { label: "Feature", name: "feature", widget: "string" }
+                  - { label: "Button", name: "button", widget: "string" }
+
+          - label: "Team"
+            name: "team"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - label: "Members"
+                name: "members"
+                widget: "list"
+                fields:
+                  - { label: "Name", name: "name", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Image", name: "image", widget: "image" }
+                  - { label: "Link", name: "link", widget: "string" }
+
+          - label: "Open Source"
+            name: "openSource"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Content", name: "content", widget: "text" }
+              - { label: "Button Text", name: "buttonText", widget: "string" }
+              - { label: "Button Link", name: "buttonLink", widget: "string" }
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - label: "Columns"
+                name: "columns"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - label: "Links"
+                    name: "links"
+                    widget: "list"
+                    fields:
+                      - { label: "Text", name: "text", widget: "string" }
+                      - { label: "Href", name: "href", widget: "string" }
