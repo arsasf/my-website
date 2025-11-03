@@ -2,12 +2,12 @@
   "slogan": {
     "logoText": "AureLab",
     "menu": [
-      "Dashboard",
-      "Products",
+      "What we do",
+      "How we work",
       "Pricing",
       "Our Team"
     ],
-    "buttonMenu": "Download",
+    "buttonMenu": "Login",
     "title": [
       "Design UI",
       "App Development",
