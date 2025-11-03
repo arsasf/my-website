@@ -1,0 +1,163 @@
+{
+  "slogan": {
+    "logoText": "Dev Space",
+    "menu": ["What we do", "How we work", "Pricing", "Our Team"],
+    "buttonMenu": "Download",
+    "title": [
+      "Design UI",
+      "App Development",
+      "Consultant Services"
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "buttonText": "Start a project today",
+    "image": "./images/yeo-feature-1.svg"
+  },
+
+  "client": {
+    "title": "Trusted By The Best Clients",
+    "logos": [
+      "./images/algolia.svg",
+      "./images/lapa-logo.svg",
+      "./images/hugo.svg",
+      "./images/codecademy.svg",
+      "./images/aws.svg",
+      "./images/stripe.svg"
+    ]
+  },
+
+  "whatWeDo": {
+    "title": "What We Do",
+    "items": [
+      {
+        "image": "./images/what-we-do-1.svg",
+        "title": "Interface Design",
+        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "link": "#"
+      },
+      {
+        "image": "./images/what-we-do-2.svg",
+        "title": "Web Application",
+        "description": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.",
+        "link": "#"
+      },
+      {
+        "image": "./images/what-we-do-3.svg",
+        "title": "Software Development",
+        "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+        "link": "#"
+      }
+    ]
+  },
+
+  "howWeWork": {
+    "title": "How We Work",
+    "content": "We build <span class='yeo-work-feature-bold'>reliable infrastructure</span>, use comprehensive in-house tools."
+  },
+
+  "price": {
+    "title": "Pricing",
+    "plans": [
+      {
+        "name": "PRO",
+        "price": "$2500 / month",
+        "features": [
+          "10 billable hours included per month.",
+          "Billable hourly rate of $300 after the included 10 hours are utilized.",
+          "24/7/365 on-call and 99.9% SLA",
+          "Communication via ticketing system and e-mail."
+        ],
+        "button": "Contact Us"
+      },
+      {
+        "name": "PREMIUM",
+        "price": "$5000 / month",
+        "features": [
+          "15 billable hours included per month.",
+          "Billable hourly rate of $250 after the included hours are utilized.",
+          "Priority 24/7/365 support and 99.99% SLA",
+          "Dedicated account manager."
+        ],
+        "button": "Contact Us"
+      },
+      {
+        "name": "ENTERPRISE",
+        "price": "$15000 / month",
+        "features": [
+          "Unlimited billable hours per month.",
+          "Custom hourly rate after SLA negotiation.",
+          "Dedicated infrastructure and 24/7/365 monitoring.",
+          "Direct Slack & call support."
+        ],
+        "button": "Contact Us"
+      }
+    ]
+  },
+
+  "team": {
+    "title": "Meet Our Team",
+    "members": [
+      {
+        "name": "John Doe",
+        "title": "DevOps",
+        "image": "./images/team-1.jpg",
+        "link": "https://www.lapa.ninja/"
+      },
+      {
+        "name": "Tinh Nguyen",
+        "title": "Designer",
+        "image": "./images/team-2.jpg",
+        "link": "https://www.lapa.ninja/"
+      },
+      {
+        "name": "Maria Oto",
+        "title": "Developer",
+        "image": "./images/team-3.jpg",
+        "link": "https://www.lapa.ninja/"
+      }
+    ]
+  },
+
+  "openSource": {
+    "title": "We love Open Source",
+    "image": "./images/open-source.svg",
+    "content": "We're making <br /> Open Source Software",
+    "buttonText": "Follow us on Github",
+    "buttonLink": "#"
+  },
+
+  "footer": {
+    "columns": [
+      {
+        "title": "Services",
+        "links": [
+          { "text": "DevOps", "href": "#" },
+          { "text": "Development", "href": "#" },
+          { "text": "Consultant", "href": "#" }
+        ]
+      },
+      {
+        "title": "Clients",
+        "links": [
+          { "text": "Lapa Ninja", "href": "#" },
+          { "text": "Noty IM", "href": "#" },
+          { "text": "Yeo Space", "href": "#" }
+        ]
+      },
+      {
+        "title": "Contact Us",
+        "links": [
+          { "text": "tinh@lapa.ninja", "href": "#" },
+          { "text": "Twitter", "href": "#" },
+          { "text": "Github", "href": "#" }
+        ]
+      },
+      {
+        "title": "Copyright",
+        "links": [
+          { "text": "Free Streamline Icons", "href": "#" },
+          { "text": "Buy Illustration Pack by Nimart1", "href": "#" }
+        ]
+      }
+    ]
+  }
+}
